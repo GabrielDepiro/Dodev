@@ -5,7 +5,14 @@
 // let nome = 'Gabriel'
 // console.log(nome)
 
-let num1 = 1;
-let num2 = 2;
+// prompt('') - Entrada do usuário
+let entradaDoUsuário = prompt();
 
-console.log(num1 + num2)
+// parseInt() - converter pra inteiro
+let entradaDoUsuárioEmInt = parseInt(prompt());
+
+// number - converte para númerico
+let entradaDoUsuárioEmNumber = Number(prompt());
+
+
+
