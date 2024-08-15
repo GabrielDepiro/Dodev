@@ -10,4 +10,5 @@ switch(idade){
         break
     default:
         console.log('Default')
+        break
 }
