@@ -1,11 +1,9 @@
-let condicao = true;
+let idade = 17;
+  
+do{
+    idade = Number(prompt('Insira a sua idade: '))
+    console.log(idade)
+}while(idade >= 18);
 
-while(condicao){
-    let idade = Number(prompt("Insira sua idade: "))
-    if (idade < 18){
-        console.log('Você é menor de idade')
-        condicao = false;
-    }
-}
 
-console.log('Acabou o while')
+console.log('Você é menor de idade')
