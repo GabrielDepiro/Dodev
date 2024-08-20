@@ -31,3 +31,24 @@ if(imc < 18.5){
 }else{
     console.log('Obesidade')
 }
+let anoAtual = 2024
+let anoNasc = anoAtual - idade
+console.log('Você nasceu no ano de ' + anoNasc)
+
+let anoVivido = anoNasc
+let idadeAtual = 0
+
+for (let anoVivido = anoNasc; anoVivido <= anoAtual; anoVivido++){
+    console.log(anoVivido + ' - ' + idadeAtual + ' anos de idade')
+    idadeAtual++
+}
+
+do{
+    let continuar = prompt('Deseja inserir os dados novamente? (s/n) ')
+} while (continuar == 's')
+let confirmar = 'n'
+while (confirmar != 's'){
+    let nome = prompt('Nome: ')
+    let idade = Number(prompt('Idade: '))
+    
+}
