@@ -43,12 +43,3 @@ for (let anoVivido = anoNasc; anoVivido <= anoAtual; anoVivido++){
     idadeAtual++
 }
 
-do{
-    let continuar = prompt('Deseja inserir os dados novamente? (s/n) ')
-} while (continuar == 's')
-let confirmar = 'n'
-while (confirmar != 's'){
-    let nome = prompt('Nome: ')
-    let idade = Number(prompt('Idade: '))
-    
-}
